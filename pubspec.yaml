@@ -1,0 +1,36 @@
+name: flutter_windows_iap
+description: >-
+  Microsoft Store in-app purchase plugin for Flutter Windows —
+  products, purchases, licenses, and One Store validation IDs.
+version: 0.0.1
+
+homepage: https://github.com/MoonTechnolabs/flutter_windows_iap
+repository: https://github.com/MoonTechnolabs/flutter_windows_iap
+issue_tracker: https://github.com/MoonTechnolabs/flutter_windows_iap/issues
+
+topics:
+  - windows
+  - in-app-purchase
+  - microsoft-store
+  - iap
+  - store
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      windows:
+        pluginClass: FlutterWindowsIapPluginCApi

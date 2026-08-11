@@ -1,0 +1,24 @@
+# Files and folders excluded from the published package on pub.dev.
+# See: https://dart.dev/tools/pub/publishing#what-files-are-published
+
+# Local tooling / IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Build / generated
+.dart_tool/
+.packages
+build/
+**/doc/api/
+pubspec.lock
+
+# Example build artifacts (example source is still included)
+example/build/
+example/.dart_tool/
+example/.idea/
+example/windows/flutter/ephemeral/
+
+# Local helper scripts
+watch.bat

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "projectPath": "/Users/dharmik.p/Downloads/flutter_windows_iap",
+  "analyzedAt": "2026-08-10T09:35:08.777Z",
+  "durationMs": 92,
+  "configFingerprint": "e4e96dca50a8aec36cecc45a57b42d353e8ce27b2831e6d5c0310173c996cede",
+  "analyzerAvailable": false,
+  "timedOut": false,
+  "cancelled": false,
+  "summary": {
+    "total": 0,
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  "score": {
+    "overall": 100.0,
+    "maintainability": 100.0
+  },
+  "issues": []
+}
